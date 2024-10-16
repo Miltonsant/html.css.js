@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+.container{
+    width: 500px;
+    height: auto;
+    background: rgb(92, 13, 102);
+    text-align: center;
+    margin: 20px auto;
+}
+
+.img-container{
+    padding-top: 15px;
+}
+
+.imagem{
+    border-radius: 50%;
+    border:  solid rgb(119, 34, 101);
+}
+
+.option-button{
+    padding: 20px;
+}
+
+.yes{
+    padding: 10px;
+    width: 80px;
+    margin: 0 10px;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+.yes:hover{
+    transform: calc(1.5);
+}
+
+.No{
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.message{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(47, 18, 100, 0.9);
+    padding: 40px;
+    color: #ffff;
+    border-radius: 10px;
+    z-index: 1000;
+    font-size: 23px;
+    box-shadow: 1px 3px 5px black;
+}
